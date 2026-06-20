@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AetherisOne.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#07111F">
+
+    <Grid>
+
+        <Image
+            Source="aetherishero.png"
+            Aspect="AspectFill"
+            Opacity="1" />
+
+        <BoxView
+            Color="#07111F"
+            Opacity="0.35" />
+       
+        <Grid Padding="24">
+            <VerticalStackLayout
+                Spacing="24"
+                VerticalOptions="Center">
+
+                <VerticalStackLayout
+                    x:Name="HeroSection"
+                    Spacing="10"
+                    HorizontalOptions="Center">
+
+                    <Image
+                        Source="aetheris_ai_minimal_logo.svg"
+                        HeightRequest="120"
+                        HorizontalOptions="Center"
+                        Margin="0,0,0,-10"/>
+
+                    <Label
+                        Text="Aetheris One"
+                        TextColor="White"
+                        FontSize="28"
+                        FontAttributes="Bold"
+                        HorizontalTextAlignment="Center" /> 
+                    
+                </VerticalStackLayout>                
+
+                <Border
+                    x:Name="ModuleCard"
+                    BackgroundColor="#1A2840"
+                    Stroke="#2F7EDB"
+                    StrokeThickness="1"
+                    Padding="14">
+
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="16"/>
+                                    </Border.StrokeShape>
+
+                                <VerticalStackLayout Spacing="6">
+                                    <Label
+                            Text="Phase 1 · Employee Wellbeing"
+                            TextColor="#D6E4F0"
+                            FontSize="16"
+                            HorizontalTextAlignment="Center" />
+
+                                    <Label
+                            Text="Daily reflection for focused work"
+                            TextColor="White"
+                            FontSize="14"
+                            HorizontalTextAlignment="Center"
+                            Opacity="0.9" />
+                                </VerticalStackLayout>  
+                </Border>
+
+                <Border
+                    x:Name="QuoteCard"
+                    BackgroundColor="#1A2840"
+                    Stroke="#2F7EDB"
+                    StrokeThickness="1"
+                    Padding="24"
+                    HeightRequest="300">       
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="22"/>
+                    </Border.StrokeShape>
+
+                    <VerticalStackLayout 
+                        Spacing="18"
+                        VerticalOptions="Center">
+
+                        <Label
+                            x:Name="QuoteLabel"
+                            Text="Loading..."
+                            TextColor="White"
+                            FontSize="26"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center" />
+
+                        <Label
+                            x:Name="AuthorLabel"
+                            Text="Loading..."
+                            TextColor="#9DB7D5"
+                            FontSize="16"
+                            HorizontalTextAlignment="Center" />
+
+                        <Label
+                            x:Name="ReflectionLabel"
+                            Text="Loading..."
+                            TextColor="#D6E4F0"
+                            FontSize="18"
+                            HorizontalTextAlignment="Center" />
+
+                    </VerticalStackLayout>
+                </Border>
+
+                <Button
+                    x:Name="NextReflectionButton"
+                    Text="Next Reflection"
+                    BackgroundColor="#1F6FEB"
+                    TextColor="White"
+                    CornerRadius="18"
+                    FontAttributes="Bold"
+                    Clicked="OnNextReflectionClicked" />
+
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aetheris AI minimal logo</title>
+  <desc id="desc">A stylised letter A mark for Aetheris AI.</desc>
+  <defs>
+    <linearGradient id="aetherisGradient" x1="42" y1="34" x2="214" y2="222" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="55%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="42" fill="#F8FAFC"/>
+  <path d="M59 202 L121 39 C127 24 148 24 154 39 L216 202 H174 L139 112 L104 202 Z" fill="url(#aetherisGradient)"/>
+  <path d="M112 202 L151 140 L181 202 Z" fill="#111827" opacity="0.92"/>
+  <path d="M57 202 L120 88 L142 88 L78 202 Z" fill="#38BDF8" opacity="0.95"/>
+</svg>
