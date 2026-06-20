@@ -1,540 +1,1218 @@
 [
   {
+    "id": "P-001",
+    "category": "Stoicism",
+    "types": [
+      "Resilience"
+    ],
+    "difficulty": "Easy",
     "text": "The obstacle is the way.",
     "author": "Marcus Aurelius",
     "reflection": "What challenge can you turn into progress today?"
   },
   {
+    "id": "P-002",
+    "category": "Stoicism",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "You have power over your mind, not outside events.",
     "author": "Marcus Aurelius",
     "reflection": "What reaction can you control today?"
   },
   {
+    "id": "P-003",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Waste no more time arguing what a good person should be. Be one.",
     "author": "Marcus Aurelius",
     "reflection": "What action would make your values visible today?"
   },
   {
+    "id": "P-004",
+    "category": "Stoicism",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "The soul becomes dyed with the colour of its thoughts.",
     "author": "Marcus Aurelius",
     "reflection": "What thought pattern are you feeding today?"
   },
   {
+    "id": "P-005",
+    "category": "Stoicism",
+    "types": [
+      "Happiness"
+    ],
+    "difficulty": "Easy",
     "text": "Very little is needed to make a happy life.",
     "author": "Marcus Aurelius",
     "reflection": "What simple thing already supports you today?"
   },
   {
+    "id": "P-006",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "If it is not right, do not do it; if it is not true, do not say it.",
     "author": "Marcus Aurelius",
     "reflection": "Where can you choose integrity over convenience today?"
   },
   {
+    "id": "P-007",
+    "category": "Stoicism",
+    "types": [
+      "Self-Mastery",
+      "Acceptance"
+    ],
+    "difficulty": "Easy",
     "text": "Confine yourself to the present.",
     "author": "Marcus Aurelius",
     "reflection": "What is the next useful action in front of you?"
   },
   {
+    "id": "P-008",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "The best revenge is not to be like your enemy.",
     "author": "Marcus Aurelius",
     "reflection": "Where can you refuse to copy poor behaviour?"
   },
   {
+    "id": "P-009",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "What stands in the way becomes the way.",
     "author": "Marcus Aurelius",
     "reflection": "What problem can become training today?"
   },
   {
+    "id": "P-010",
+    "category": "Stoicism",
+    "types": [
+      "Happiness",
+      "Self-Mastery"
+    ],
+    "difficulty": "Medium",
     "text": "The happiness of your life depends upon the quality of your thoughts.",
     "author": "Marcus Aurelius",
     "reflection": "What thought deserves better quality control today?"
   },
   {
+    "id": "P-011",
+    "category": "Stoicism",
+    "types": [
+      "Resilience"
+    ],
+    "difficulty": "Easy",
     "text": "We suffer more often in imagination than in reality.",
     "author": "Seneca",
     "reflection": "What fear can you test against evidence?"
   },
   {
+    "id": "P-012",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Luck is what happens when preparation meets opportunity.",
     "author": "Seneca",
     "reflection": "What preparation can you improve today?"
   },
   {
+    "id": "P-013",
+    "category": "Stoicism",
+    "types": [
+      "Resilience",
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "Difficulties strengthen the mind, as labour does the body.",
     "author": "Seneca",
     "reflection": "What difficulty can you treat as training?"
   },
   {
+    "id": "P-014",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "No person was ever wise by chance.",
     "author": "Seneca",
     "reflection": "What deliberate lesson can you take from today?"
   },
   {
+    "id": "P-015",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "Begin at once to live, and count each separate day as a separate life.",
     "author": "Seneca",
     "reflection": "What would make today complete on its own?"
   },
   {
+    "id": "P-016",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "It is not that we have a short time to live, but that we waste much of it.",
     "author": "Seneca",
     "reflection": "Where is your time leaking today?"
   },
   {
+    "id": "P-017",
+    "category": "Stoicism",
+    "types": [
+      "Resilience"
+    ],
+    "difficulty": "Easy",
     "text": "He who is brave is free.",
     "author": "Seneca",
     "reflection": "What small act of courage would make you freer?"
   },
   {
+    "id": "P-018",
+    "category": "Stoicism",
+    "types": [
+      "Purpose"
+    ],
+    "difficulty": "Easy",
     "text": "No wind is favourable to the sailor who has no destination.",
     "author": "Seneca",
     "reflection": "What destination are your actions serving today?"
   },
   {
+    "id": "P-019",
+    "category": "Stoicism",
+    "types": [
+      "Relationships"
+    ],
+    "difficulty": "Easy",
     "text": "Associate with people who are likely to improve you.",
     "author": "Seneca",
-    "reflection": "Who or what are you allowing to shape your standards?"
+    "reflection": "What influence should you move closer to or away from?"
   },
   {
+    "id": "P-020",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "A gem cannot be polished without friction.",
     "author": "Seneca",
     "reflection": "What friction is polishing you right now?"
   },
   {
+    "id": "P-021",
+    "category": "Stoicism",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "It is not things that disturb us, but our judgments about things.",
     "author": "Epictetus",
     "reflection": "What judgment can you examine before reacting?"
   },
   {
+    "id": "P-022",
+    "category": "Stoicism",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Medium",
     "text": "First say to yourself what you would be; then do what you have to do.",
     "author": "Epictetus",
     "reflection": "Who are you practising becoming today?"
   },
   {
+    "id": "P-023",
+    "category": "Stoicism",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "No person is free who is not master of themselves.",
     "author": "Epictetus",
     "reflection": "Where can you practise self-command today?"
   },
   {
+    "id": "P-024",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "Make the best use of what is in your power, and take the rest as it happens.",
     "author": "Epictetus",
     "reflection": "What is actually within your control right now?"
   },
   {
+    "id": "P-025",
+    "category": "Stoicism",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Do not explain your philosophy. Embody it.",
     "author": "Epictetus",
     "reflection": "What belief can you demonstrate through action?"
   },
   {
+    "id": "P-026",
+    "category": "Stoicism",
+    "types": [
+      "Relationships"
+    ],
+    "difficulty": "Easy",
     "text": "The key is to keep company only with people who uplift you.",
     "author": "Epictetus",
     "reflection": "What influence should you move closer to or away from?"
   },
   {
+    "id": "P-027",
+    "category": "Stoicism",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Hard",
     "text": "Freedom is secured not by fulfilling desires, but by removing them.",
     "author": "Epictetus",
     "reflection": "What desire is quietly owning your attention?"
   },
   {
+    "id": "P-028",
+    "category": "Stoicism",
+    "types": [
+      "Resilience",
+      "Self-Mastery"
+    ],
+    "difficulty": "Medium",
     "text": "If you want to improve, be content to be thought foolish at first.",
     "author": "Epictetus",
     "reflection": "What beginner discomfort is worth accepting?"
   },
   {
+    "id": "P-029",
+    "category": "Stoicism",
+    "types": [
+      "Happiness"
+    ],
+    "difficulty": "Easy",
     "text": "Events do not just happen; they arrive by appointment.",
     "author": "Epictetus",
     "reflection": "What can you meet calmly instead of resisting?"
   },
   {
+    "id": "P-030",
+    "category": "Stoicism",
+    "types": [
+      "Discipline",
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "Practice yourself, for heaven’s sake, in little things.",
     "author": "Epictetus",
     "reflection": "What small discipline can you practise today?"
   },
   {
+    "id": "P-031",
+    "category": "Greek Philosophy",
+    "types": [
+      "Discipline",
+      "Self-Mastery"
+    ],
+    "difficulty": "Medium",
     "text": "Know thyself.",
     "author": "Socrates",
     "reflection": "What truth about yourself needs attention today?"
   },
   {
+    "id": "P-032",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "The unexamined life is not worth living.",
     "author": "Socrates",
     "reflection": "What assumption should you examine today?"
   },
   {
+    "id": "P-033",
+    "category": "Greek Philosophy",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Medium",
     "text": "I know that I know nothing.",
     "author": "Socrates",
     "reflection": "Where would humility make you sharper?"
   },
   {
+    "id": "P-034",
+    "category": "Greek Philosophy",
+    "types": [
+      "Relationships"
+    ],
+    "difficulty": "Medium",
     "text": "Be kind, for everyone you meet is fighting a hard battle.",
     "author": "Socratic tradition",
     "reflection": "Where can you be firm without being cruel?"
   },
   {
+    "id": "P-035",
+    "category": "Greek Philosophy",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Medium",
     "text": "To find yourself, think for yourself.",
     "author": "Socrates",
     "reflection": "What opinion have you inherited but not inspected?"
   },
   {
+    "id": "P-036",
+    "category": "Greek Philosophy",
+    "types": [
+      "Relationships",
+      "Learning"
+    ],
+    "difficulty": "Medium",
     "text": "Education is the kindling of a flame, not the filling of a vessel.",
     "author": "Socratic tradition",
     "reflection": "What curiosity can you kindle today?"
   },
   {
+    "id": "P-037",
+    "category": "Greek Philosophy",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Medium",
     "text": "The beginning is the most important part of the work.",
     "author": "Plato",
     "reflection": "What needs a proper beginning today?"
   },
   {
+    "id": "P-038",
+    "category": "Greek Philosophy",
+    "types": [
+      "Resilience",
+      "Self-Mastery"
+    ],
+    "difficulty": "Medium",
     "text": "Courage is knowing what not to fear.",
     "author": "Plato",
     "reflection": "What fear deserves less authority over you?"
   },
   {
+    "id": "P-039",
+    "category": "Greek Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Acceptance"
+    ],
+    "difficulty": "Hard",
     "text": "Reality is created by the mind; we can change reality by changing the mind.",
     "author": "Platonic tradition",
     "reflection": "What interpretation is shaping your experience?"
   },
   {
+    "id": "P-040",
+    "category": "Greek Philosophy",
+    "types": [
+      "Discipline",
+      "Purpose"
+    ],
+    "difficulty": "Medium",
     "text": "Excellence is not an act, but a habit.",
     "author": "Aristotle",
     "reflection": "What habit is quietly building your future?"
   },
   {
+    "id": "P-041",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "We are what we repeatedly do.",
     "author": "Aristotle",
     "reflection": "What repeated action is defining you?"
   },
   {
+    "id": "P-042",
+    "category": "Greek Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Learning"
+    ],
+    "difficulty": "Medium",
     "text": "Knowing yourself is the beginning of all wisdom.",
     "author": "Aristotle",
     "reflection": "What pattern in yourself should you understand better?"
   },
   {
+    "id": "P-043",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "Patience is bitter, but its fruit is sweet.",
     "author": "Aristotelian tradition",
     "reflection": "What long game are you willing to keep playing?"
   },
   {
+    "id": "P-044",
+    "category": "Greek Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Learning"
+    ],
+    "difficulty": "Medium",
     "text": "The more you know, the more you realise you do not know.",
     "author": "Aristotle",
     "reflection": "Where has learning made you more humble?"
   },
   {
+    "id": "P-045",
+    "category": "Greek Philosophy",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Medium",
     "text": "Pleasure in the job puts perfection in the work.",
     "author": "Aristotle",
     "reflection": "How can you bring more craft to today’s work?"
   },
   {
+    "id": "P-046",
+    "category": "Greek Philosophy",
+    "types": [
+      "Resilience"
+    ],
+    "difficulty": "Medium",
     "text": "He who has overcome his fears will truly be free.",
     "author": "Aristotle",
     "reflection": "Which fear is blocking useful movement?"
   },
   {
+    "id": "P-047",
+    "category": "Greek Philosophy",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Medium",
     "text": "Quality is not an act, it is a habit.",
     "author": "Aristotelian tradition",
     "reflection": "What quality standard can you repeat today?"
   },
   {
+    "id": "P-048",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "The journey of a thousand miles begins with a single step.",
     "author": "Laozi",
     "reflection": "What is the smallest useful step today?"
   },
   {
+    "id": "P-049",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Nature does not hurry, yet everything is accomplished.",
     "author": "Laozi",
     "reflection": "Where can you move steadily instead of rushing?"
   },
   {
+    "id": "P-050",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Relationships",
+      "Learning"
+    ],
+    "difficulty": "Easy",
     "text": "He who knows others is wise; he who knows himself is enlightened.",
     "author": "Laozi",
     "reflection": "What self-knowledge would improve your decisions?"
   },
   {
+    "id": "P-051",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Relationships"
+    ],
+    "difficulty": "Easy",
     "text": "Mastering others is strength; mastering yourself is true power.",
     "author": "Laozi",
     "reflection": "What part of yourself needs command today?"
   },
   {
+    "id": "P-052",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Silence is a source of great strength.",
     "author": "Laozi",
     "reflection": "Where would silence serve you better than reaction?"
   },
   {
+    "id": "P-053",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Acceptance"
+    ],
+    "difficulty": "Easy",
     "text": "When I let go of what I am, I become what I might be.",
     "author": "Laozi",
     "reflection": "What identity is too small for your next phase?"
   },
   {
+    "id": "P-054",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Relationships"
+    ],
+    "difficulty": "Medium",
     "text": "The wise person does not hoard; the more they give, the more they have.",
     "author": "Laozi",
     "reflection": "What can you give without weakening yourself?"
   },
   {
+    "id": "P-055",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Act without forcing; lead without dominating.",
     "author": "Laozi",
     "reflection": "Where can you influence without pushing?"
   },
   {
+    "id": "P-056",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "The superior person is modest in speech but exceeds in action.",
     "author": "Confucius",
     "reflection": "Where can your actions speak louder today?"
   },
   {
+    "id": "P-057",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "It does not matter how slowly you go as long as you do not stop.",
     "author": "Confucius",
     "reflection": "What progress can you protect, however small?"
   },
   {
+    "id": "P-058",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Resilience"
+    ],
+    "difficulty": "Easy",
     "text": "To see what is right and not do it is want of courage.",
     "author": "Confucius",
     "reflection": "What right action are you delaying?"
   },
   {
+    "id": "P-059",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Learning"
+    ],
+    "difficulty": "Easy",
     "text": "Real knowledge is to know the extent of one’s ignorance.",
     "author": "Confucius",
     "reflection": "What do you need to learn before deciding?"
   },
   {
+    "id": "P-060",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Relationships"
+    ],
+    "difficulty": "Easy",
     "text": "Respect yourself and others will respect you.",
     "author": "Confucius",
     "reflection": "What boundary would show self-respect today?"
   },
   {
+    "id": "P-061",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Purpose"
+    ],
+    "difficulty": "Easy",
     "text": "Study the past if you would define the future.",
     "author": "Confucius",
     "reflection": "What past lesson applies today?"
   },
   {
+    "id": "P-062",
+    "category": "General Philosophy",
+    "types": [
+      "Acceptance"
+    ],
+    "difficulty": "Medium",
     "text": "Wherever you go, go with all your heart.",
     "author": "Confucian tradition",
     "reflection": "Where are you physically present but mentally absent?"
   },
   {
+    "id": "P-063",
+    "category": "General Philosophy",
+    "types": [
+      "Learning"
+    ],
+    "difficulty": "Medium",
     "text": "The person who asks a question is a fool for a minute; the person who does not is a fool for life.",
     "author": "Confucian tradition",
     "reflection": "What question should you stop avoiding?"
   },
   {
+    "id": "P-064",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "No one saves us but ourselves.",
     "author": "Buddhist tradition",
     "reflection": "What responsibility can you reclaim today?"
   },
   {
+    "id": "P-065",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Happiness",
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "Peace comes from within.",
     "author": "Buddhist tradition",
     "reflection": "What external thing are you asking to do internal work?"
   },
   {
+    "id": "P-066",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "The mind is everything; what you think, you become.",
     "author": "Buddhist tradition",
     "reflection": "What thought are you practising into identity?"
   },
   {
+    "id": "P-067",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Holding on to anger is like grasping a hot coal.",
     "author": "Buddhist tradition",
     "reflection": "What resentment is burning your own hand?"
   },
   {
+    "id": "P-068",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Relationships"
+    ],
+    "difficulty": "Easy",
     "text": "Thousands of candles can be lit from one candle.",
     "author": "Buddhist tradition",
     "reflection": "What good can you share without losing it?"
   },
   {
+    "id": "P-069",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Happiness",
+      "Discipline",
+      "Purpose"
+    ],
+    "difficulty": "Easy",
     "text": "A disciplined mind brings happiness.",
     "author": "Buddhist tradition",
     "reflection": "What discipline would reduce future suffering?"
   },
   {
+    "id": "P-070",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Happiness"
+    ],
+    "difficulty": "Easy",
     "text": "Health is the greatest gift; contentment the greatest wealth.",
     "author": "Buddhist tradition",
     "reflection": "What form of wealth are you overlooking?"
   },
   {
+    "id": "P-071",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "If anything is worth doing, do it with all your heart.",
     "author": "Buddhist tradition",
     "reflection": "What deserves wholehearted effort today?"
   },
   {
+    "id": "P-072",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Resilience",
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "He who conquers himself is the mightiest warrior.",
     "author": "Indian wisdom tradition",
     "reflection": "What inner battle is worth winning today?"
   },
   {
+    "id": "P-073",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "A person is made by their belief; as they believe, so they become.",
     "author": "Bhagavad Gita tradition",
     "reflection": "What belief is shaping your behaviour?"
   },
   {
+    "id": "P-074",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "You have the right to work, but not to the fruits of work.",
     "author": "Bhagavad Gita tradition",
     "reflection": "Where can you focus on effort instead of outcome?"
   },
   {
+    "id": "P-075",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Acceptance"
+    ],
+    "difficulty": "Easy",
     "text": "Change is the law of the universe.",
     "author": "Bhagavad Gita tradition",
     "reflection": "What change are you resisting unnecessarily?"
   },
   {
+    "id": "P-076",
+    "category": "Eastern Philosophy",
+    "types": [
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "The wise see the same self in all beings.",
     "author": "Bhagavad Gita tradition",
     "reflection": "Where can perspective reduce ego today?"
   },
   {
+    "id": "P-077",
+    "category": "Greek Philosophy",
+    "types": [
+      "Acceptance"
+    ],
+    "difficulty": "Medium",
     "text": "No person ever steps in the same river twice.",
     "author": "Heraclitus",
     "reflection": "What has changed since the last time you faced this?"
   },
   {
+    "id": "P-078",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "Character is destiny.",
     "author": "Heraclitus",
     "reflection": "What character trait are you training today?"
   },
   {
+    "id": "P-079",
+    "category": "Greek Philosophy",
+    "types": [
+      "Acceptance"
+    ],
+    "difficulty": "Medium",
     "text": "The only constant in life is change.",
     "author": "Heraclitean tradition",
     "reflection": "What change can you cooperate with instead of fighting?"
   },
   {
+    "id": "P-080",
+    "category": "Greek Philosophy",
+    "types": [
+      "Learning"
+    ],
+    "difficulty": "Medium",
     "text": "Much learning does not teach understanding.",
     "author": "Heraclitus",
     "reflection": "Where do you need insight, not more information?"
   },
   {
+    "id": "P-081",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Hard",
     "text": "The hidden harmony is better than the obvious.",
     "author": "Heraclitus",
     "reflection": "What pattern is not immediately visible?"
   },
   {
+    "id": "P-082",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "The road up and the road down are one and the same.",
     "author": "Heraclitus",
     "reflection": "What opposite viewpoints may be connected?"
   },
   {
+    "id": "P-083",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Hard",
     "text": "Man is the measure of all things.",
     "author": "Protagoras",
     "reflection": "How might perspective be shaping this situation?"
   },
   {
+    "id": "P-084",
+    "category": "Greek Philosophy",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Hard",
     "text": "Nothing exists except atoms and empty space; everything else is opinion.",
     "author": "Democritus",
     "reflection": "What are the facts before interpretation?"
   },
   {
+    "id": "P-085",
+    "category": "Greek Philosophy",
+    "types": [
+      "Self-Mastery",
+      "Relationships"
+    ],
+    "difficulty": "Medium",
     "text": "It is better to destroy one’s own errors than those of others.",
     "author": "Democritus",
     "reflection": "What error in yourself can you correct today?"
   },
   {
+    "id": "P-086",
+    "category": "Greek Philosophy",
+    "types": [
+      "Happiness"
+    ],
+    "difficulty": "Medium",
     "text": "Happiness resides not in possessions, but in the soul.",
     "author": "Democritus",
     "reflection": "What inner condition matters more than external gain?"
   },
   {
+    "id": "P-087",
+    "category": "Stoicism",
+    "types": [
+      "Acceptance"
+    ],
+    "difficulty": "Medium",
     "text": "Do not seek to have events happen as you wish, but wish them to happen as they do.",
     "author": "Stoic tradition",
     "reflection": "Where can acceptance make you more effective?"
   },
   {
+    "id": "P-088",
+    "category": "Stoicism",
+    "types": [
+      "Acceptance"
+    ],
+    "difficulty": "Easy",
     "text": "Control what you can; release what you cannot.",
     "author": "Stoic principle",
     "reflection": "What belongs on each side of that line today?"
   },
   {
+    "id": "P-089",
+    "category": "Practical Wisdom",
+    "types": [
+      "Relationships"
+    ],
+    "difficulty": "Easy",
     "text": "Every action has a cost; choose the cost you can respect.",
     "author": "Practical wisdom",
     "reflection": "What trade-off are you willing to own?"
   },
   {
+    "id": "P-090",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "Attention is the beginning of mastery.",
     "author": "Practical wisdom",
     "reflection": "Where does your attention need discipline?"
   },
   {
+    "id": "P-091",
+    "category": "Practical Wisdom",
+    "types": [
+      "Purpose",
+      "Self-Mastery",
+      "Relationships"
+    ],
+    "difficulty": "Easy",
     "text": "Clarity is kindness to your future self.",
     "author": "Practical wisdom",
     "reflection": "What can you document or simplify today?"
   },
   {
+    "id": "P-092",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "Small disciplines compound into quiet strength.",
     "author": "Practical wisdom",
     "reflection": "What small discipline can you repeat today?"
   },
   {
+    "id": "P-093",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline",
+      "Purpose"
+    ],
+    "difficulty": "Easy",
     "text": "You do not rise to your goals; you fall to your systems.",
     "author": "Systems principle",
     "reflection": "What system needs improvement more than your motivation?"
   },
   {
+    "id": "P-094",
+    "category": "Practical Wisdom",
+    "types": [
+      "Happiness",
+      "Self-Mastery"
+    ],
+    "difficulty": "Easy",
     "text": "A calm mind sees more options.",
     "author": "Practical wisdom",
     "reflection": "What would you notice if you slowed down?"
   },
   {
+    "id": "P-095",
+    "category": "Practical Wisdom",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "The first victory is over distraction.",
     "author": "Practical wisdom",
     "reflection": "What distraction must lose today?"
   },
   {
+    "id": "P-096",
+    "category": "Practical Wisdom",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "Do the next right thing, not the grand perfect thing.",
     "author": "Practical wisdom",
     "reflection": "What is the next right action?"
   },
   {
+    "id": "P-097",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "Progress is proof that effort has memory.",
     "author": "Practical wisdom",
     "reflection": "Where is yesterday’s effort helping you today?"
   },
   {
+    "id": "P-098",
+    "category": "Practical Wisdom",
+    "types": [
+      "Resilience"
+    ],
+    "difficulty": "Easy",
     "text": "Discomfort is often the doorway to capability.",
     "author": "Practical wisdom",
     "reflection": "What discomfort is worth walking through?"
   },
   {
+    "id": "P-099",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "A focused hour beats a scattered day.",
     "author": "Practical wisdom",
     "reflection": "What deserves one protected hour today?"
   },
   {
+    "id": "P-100",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline",
+      "Purpose"
+    ],
+    "difficulty": "Easy",
     "text": "The future is negotiated by today’s habits.",
     "author": "Practical wisdom",
     "reflection": "What habit is casting your vote today?"
   },
   {
+    "id": "P-101",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "What you practise in private appears in pressure.",
     "author": "Practical wisdom",
     "reflection": "What private practice will support you under stress?"
   },
   {
+    "id": "P-102",
+    "category": "Practical Wisdom",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "The task is not to feel ready; the task is to begin wisely.",
     "author": "Practical wisdom",
     "reflection": "Where are you waiting for readiness unnecessarily?"
   },
   {
+    "id": "P-103",
+    "category": "Practical Wisdom",
+    "types": [
+      "Happiness",
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "A clear boundary is a form of peace.",
     "author": "Practical wisdom",
     "reflection": "What boundary would protect your focus today?"
   },
   {
+    "id": "P-104",
+    "category": "Practical Wisdom",
+    "types": [
+      "Purpose"
+    ],
+    "difficulty": "Easy",
     "text": "Energy follows meaning.",
     "author": "Practical wisdom",
     "reflection": "What meaning can you reconnect with today?"
   },
   {
+    "id": "P-105",
+    "category": "Practical Wisdom",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Medium",
     "text": "The best time to correct direction is before speed becomes momentum.",
     "author": "Practical wisdom",
     "reflection": "Where do you need a small course correction?"
   },
   {
+    "id": "P-106",
+    "category": "Practical Wisdom",
+    "types": [
+      "Purpose"
+    ],
+    "difficulty": "Easy",
     "text": "Build the person who can handle the life you want.",
     "author": "Practical wisdom",
     "reflection": "What capability does your future require?"
   },
   {
+    "id": "P-107",
+    "category": "Practical Wisdom",
+    "types": [
+      "Reflection"
+    ],
+    "difficulty": "Easy",
     "text": "A good morning is designed before it is needed.",
     "author": "Practical wisdom",
     "reflection": "What part of tomorrow can you prepare today?"
   },
   {
+    "id": "P-108",
+    "category": "Practical Wisdom",
+    "types": [
+      "Discipline"
+    ],
+    "difficulty": "Easy",
     "text": "The quiet work is still work.",
     "author": "Practical wisdom",
     "reflection": "What invisible effort deserves recognition?"

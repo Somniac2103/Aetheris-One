@@ -68,6 +68,30 @@
                                 </VerticalStackLayout>  
                 </Border>
 
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+
+                    <Button
+                        x:Name="AllFilterButton"
+                        Grid.Column="0"
+                        Text="All"
+                        BackgroundColor="#1F6FEB"
+                        TextColor="White"
+                        CornerRadius="16"
+                        FontAttributes="Bold"
+                        Clicked="OnAllFilterClicked" />
+
+                    <Button
+                        x:Name="FavoritesFilterButton"
+                        Grid.Column="1"
+                        Text="Favourites"
+                        BackgroundColor="#1A2840"
+                        TextColor="#D6E4F0"
+                        CornerRadius="16"
+                        FontAttributes="Bold"
+                        Clicked="OnFavoritesFilterClicked" />
+
+                </Grid>
+
                 <Border
                     x:Name="QuoteCard"
                     BackgroundColor="#1A2840"
@@ -109,14 +133,29 @@
                     </VerticalStackLayout>
                 </Border>
 
-                <Button
-                    x:Name="NextReflectionButton"
-                    Text="Next Reflection"
-                    BackgroundColor="#1F6FEB"
-                    TextColor="White"
-                    CornerRadius="18"
-                    FontAttributes="Bold"
-                    Clicked="OnNextReflectionClicked" />
+                <Grid ColumnDefinitions="*,4*" ColumnSpacing="12">
+
+                    <Button
+                        x:Name="FavoriteButton"
+                        Grid.Column="0"
+                        Text="♥"
+                        BackgroundColor="#1F6FEB"
+                        TextColor="White"
+                        CornerRadius="18"
+                        FontAttributes="Bold"
+                        Clicked="OnFavoriteClicked" />
+
+                    <Button
+                        x:Name="NextReflectionButton"
+                        Grid.Column="1"
+                        Text="Next Reflection"
+                        BackgroundColor="#1F6FEB"
+                        TextColor="White"
+                        CornerRadius="18"
+                        FontAttributes="Bold"
+                        Clicked="OnNextReflectionClicked" />    
+
+                </Grid>
 
             </VerticalStackLayout>
         </Grid>
