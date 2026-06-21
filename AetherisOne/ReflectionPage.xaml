@@ -8,13 +8,9 @@
     <Grid>
 
         <Image
-            Source="aetherishero.png"
+            Source="aetherisbg.png"
             Aspect="AspectFill"
             Opacity="1" />
-
-        <BoxView
-            Color="#07111F"
-            Opacity="0.35" />
 
         <Grid Padding="24">
             <ScrollView>

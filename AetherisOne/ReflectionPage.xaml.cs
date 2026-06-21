@@ -40,6 +40,7 @@ public partial class ReflectionPage : ContentPage
         await RunIntroAnimation();
     }
 
+    
     private void DisplayCurrentQuote()
     {
         if (_quotes.Count == 0 || _currentQuoteIndex < 0)

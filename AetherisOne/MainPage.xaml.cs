@@ -21,6 +21,7 @@ public partial class MainPage : ContentPage
         DisplayQuoteOfTheDay();
     }
 
+    
     private async Task LoadQuotesAsync()
     {
         using Stream stream =

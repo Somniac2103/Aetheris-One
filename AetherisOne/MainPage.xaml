@@ -9,12 +9,9 @@
     <Grid>
 
         <Image
-            Source="aetherishero.png"
-            Aspect="AspectFill" />
-
-        <BoxView
-            Color="#07111F"
-            Opacity="0.35" />
+            Source="aetherisbg.png"
+            Aspect="AspectFill" 
+            Opacity="1" />
 
         <ScrollView>
             <VerticalStackLayout
