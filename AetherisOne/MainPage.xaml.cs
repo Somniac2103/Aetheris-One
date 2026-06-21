@@ -17,6 +17,8 @@ public partial class MainPage : ContentPage
 
     private bool _showFavoritesOnly = false;
 
+    private string _selectedCategory = "All";
+
     public MainPage()
     {
         InitializeComponent();
@@ -275,14 +277,23 @@ public partial class MainPage : ContentPage
 
     private List<Quote> GetActiveQuotePool()
     {
-        if (!_showFavoritesOnly)
+        IEnumerable<Quote> activePool = _quotes;
+
+        if (_showFavoritesOnly)
         {
-            return _quotes;
+            activePool = activePool
+                .Where(q => _favoriteQuoteIds.Contains(q.Id));
         }
 
-        return _quotes
-            .Where(q => _favoriteQuoteIds.Contains(q.Id))
-            .ToList();
+        string categoryValue = MapCategoryToJsonValue(_selectedCategory);
+
+        if (categoryValue != "All")
+        {
+            activePool = activePool
+                .Where(q => q.Category == categoryValue);
+        }
+
+        return activePool.ToList();
     }
 
     private void DisplayRandomQuoteFromActivePool()
@@ -291,9 +302,13 @@ public partial class MainPage : ContentPage
 
         if (activePool.Count == 0)
         {
-            QuoteLabel.Text = "No favourite quotes yet.";
+            QuoteLabel.Text = "No matching quotes found.";
             AuthorLabel.Text = "— Aetheris One";
-            ReflectionLabel.Text = "Tap the heart to save reflections.";
+            ReflectionLabel.Text = "Try another category or save more favourites.";
+
+            FavoriteButton.Text = "♥";
+            FavoriteButton.BackgroundColor = Color.FromArgb("#C0392B");
+
             return;
         }
 
@@ -302,6 +317,42 @@ public partial class MainPage : ContentPage
         _currentQuoteIndex = _quotes.FindIndex(q => q.Id == selectedQuote.Id);
 
         DisplayCurrentQuote();
+    }
+
+    private string MapCategoryToJsonValue(string selectedCategory)
+    {
+        return selectedCategory switch
+        {
+            "Stoicism" => "Stoicism",
+            "Greek" => "Greek Philosophy",
+            "Eastern" => "Eastern Philosophy",
+            "Practical" => "Practical Wisdom",
+            _ => "All"
+        };
+    }
+
+    private async void OnCategorySelectorClicked(object? sender, EventArgs e)
+    {
+        string selected = await DisplayActionSheetAsync(
+            "Select Category",
+            "Cancel",
+            null,
+            "All",
+            "Stoicism",
+            "Greek",
+            "Eastern",
+            "Practical");
+
+        if (selected == "Cancel" || string.IsNullOrWhiteSpace(selected))
+        {
+            return;
+        }
+
+        _selectedCategory = selected;
+
+        CategorySelectorButton.Text = $"{selected} ▼";
+
+        DisplayRandomQuoteFromActivePool();
     }
 
 }
