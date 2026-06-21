@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AetherisOne.ReflectionPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#07111F">
+
+    <Grid>
+
+        <Image
+            Source="aetherishero.png"
+            Aspect="AspectFill"
+            Opacity="1" />
+
+        <BoxView
+            Color="#07111F"
+            Opacity="0.35" />
+
+        <Grid Padding="24">
+            <ScrollView>
+                <VerticalStackLayout
+            Spacing="18"
+            VerticalOptions="Center">
+
+                    <VerticalStackLayout
+                    x:Name="HeroSection"
+                    Spacing="10"
+                    HorizontalOptions="Center">
+
+                        <Image
+                        Source="aetheris_ai_minimal_logo.svg"
+                        HeightRequest="75"
+                        HorizontalOptions="Center"
+                        Margin="0,0,0,-10">
+
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnLogoTapped"/>
+                            </Image.GestureRecognizers>
+
+                        </Image>
+
+                        <Label
+                        Text="Aetheris One"
+                        TextColor="White"
+                        FontSize="28"
+                        FontAttributes="Bold"
+                        HorizontalTextAlignment="Center" />
+
+                    </VerticalStackLayout>
+
+                    <Border
+                    x:Name="ModuleCard"
+                    BackgroundColor="#1A2840"
+                    Stroke="#2F7EDB"
+                    StrokeThickness="1"
+                    Padding="14">
+
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="16"/>
+                        </Border.StrokeShape>
+
+                        <VerticalStackLayout Spacing="6">
+                            <Label
+                            Text="Phase 1 · Employee Wellbeing"
+                            TextColor="#D6E4F0"
+                            FontSize="16"
+                            HorizontalTextAlignment="Center" />
+
+                            <Label
+                            Text="Daily reflection for focused work"
+                            TextColor="White"
+                            FontSize="14"
+                            HorizontalTextAlignment="Center"
+                            Opacity="0.9" />
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+
+                        <Button
+                        x:Name="AllFilterButton"
+                        Grid.Column="0"
+                        Text="All"
+                        BackgroundColor="#1F6FEB"
+                        TextColor="White"
+                        CornerRadius="16"
+                        FontAttributes="Bold"
+                        Clicked="OnAllFilterClicked" />
+
+                        <Button
+                        x:Name="FavoritesFilterButton"
+                        Grid.Column="1"
+                        Text="Favourites"
+                        BackgroundColor="#1A2840"
+                        TextColor="#D6E4F0"
+                        CornerRadius="16"
+                        FontAttributes="Bold"
+                        Clicked="OnFavoritesFilterClicked" />
+
+                    </Grid>
+
+                    <Border
+                        BackgroundColor="#1A2840"
+                        Stroke="#2F7EDB"
+                        StrokeThickness="1"
+                        Padding="10">       
+
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="16"/>
+                        </Border.StrokeShape>
+
+                        <VerticalStackLayout Spacing="6">
+
+                                <Label
+                                    Text="Category"
+                                    HorizontalTextAlignment="Center"
+                                    TextColor="#9DB7D5"
+                                    FontAttributes="Bold"
+                                    FontSize="13" />
+
+                            <Button
+                                x:Name="CategorySelectorButton"
+                                Text="All ▼"
+                                BackgroundColor="#10233A"
+                                TextColor="White"
+                                CornerRadius="14"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                Clicked="OnCategorySelectorClicked" />
+
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Border
+                    x:Name="QuoteCard"
+                    BackgroundColor="#1A2840"
+                    Stroke="#2F7EDB"
+                    StrokeThickness="1"
+                    Padding="24"
+                    HeightRequest="260">
+
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="22"/>
+                        </Border.StrokeShape>
+
+                        <VerticalStackLayout 
+                        Spacing="18"
+                        VerticalOptions="Center">
+
+                            <Label
+                            x:Name="QuoteLabel"
+                            Text="Loading..."
+                            TextColor="White"
+                            FontSize="26"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center" />
+
+                            <Label
+                            x:Name="AuthorLabel"
+                            Text="Loading..."
+                            TextColor="#9DB7D5"
+                            FontSize="16"
+                            HorizontalTextAlignment="Center" />
+
+                            <Label
+                            x:Name="ReflectionLabel"
+                            Text="Loading..."
+                            TextColor="#D6E4F0"
+                            FontSize="18"
+                            HorizontalTextAlignment="Center" />
+
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Grid ColumnDefinitions="*,4*" ColumnSpacing="12">
+
+                        <Button
+                        x:Name="FavoriteButton"
+                        Grid.Column="0"
+                        Text="♥"
+                        BackgroundColor="#1F6FEB"
+                        TextColor="White"
+                        CornerRadius="18"
+                        FontAttributes="Bold"
+                        Clicked="OnFavoriteClicked" />
+
+                        <Button
+                        x:Name="NextReflectionButton"
+                        Grid.Column="1"
+                        Text="Next Reflection"
+                        BackgroundColor="#1F6FEB"
+                        TextColor="White"
+                        CornerRadius="18"
+                        FontAttributes="Bold"
+                        Clicked="OnNextReflectionClicked" />
+
+                    </Grid>
+
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>
